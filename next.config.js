@@ -11,13 +11,9 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'main.dfqc4rf30fhoa.amplifyapp.com',
       },
-      {
-        protocol: 'http',
-        hostname: 'tvf.c0m.in',
-      }
     ],
   },
-  // output: 'export',
+  output: 'standalone',
 };
 
 module.exports = withNextIntl(nextConfig);
